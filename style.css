@@ -1,0 +1,257 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* .main-container{
+    width:100vw;
+    height:100vh;
+    background-color: rgb(180, 199, 251);
+    
+} */
+
+.main-box{
+    width:100vw;
+    height:100vh;
+    background-color: rgb(180, 199, 251);
+    display:inline-block;
+}
+
+.login-page{
+    width:55%;
+    height:97%;
+    background-color: rgb(218, 227, 250);
+    margin: 5px 40px;
+    /* border:2px solid black; */
+    /* display:inline-block; */
+    border-radius:20px;
+    box-shadow: 5px 5px 4px rgb(180, 199, 251);
+}
+
+.login-page > .left-box{
+    width:36%;
+    height:89%;
+    background-color: rgb(79, 79, 238);
+    margin: 10px 20px;
+    border-radius:20px;
+    /* display:inline-block; */
+}
+.left-box{
+    display:inline-block;
+}
+
+.left-box > .logo{
+    display:inline-block;
+    margin: 20px;
+    font-family:Verdana;
+    font-size:0.4em;
+    word-spacing: 0.5em;
+    color:aliceblue
+}
+
+.content-box >.heading{
+    font-family: Verdana;
+    font-size:1em;
+    font-weight: 200;
+    padding:20px;
+
+}
+
+.content-box .content-1{
+    padding:5px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size:1.5px;
+    font-weight:lighter;
+    color:rgb(236, 237, 238);
+    word-spacing:0.5em;
+}
+.content-box-2{
+    display:block;
+    border-radius: 5px;
+    background-color: rgb(110, 110, 158);
+    padding:10px 11px;
+    margin:25px 9px;
+}
+.content-box-2 >.content-2{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(110, 110, 158);
+    text-align: left;
+    font-size:0.4px;
+    /* font-weight:lighter; */
+    color:rgb(236, 237, 238);
+    word-spacing:0.2em;
+    border-radius: 5px;
+    /* box-shadow:5px 5px 5px rgb(110, 110, 158); */
+}
+.content-box-2 .image-txt{
+    width:50px;
+    height:50px;
+    background-image: url(./Images/a-doll-wearing-an-orange-coat-and-boots-standing-in-leaves-generative-ai-photo.jpeg);
+    background-size: cover;
+    background-position: center;
+    border:1px solid rgb(110, 110, 158);
+    margin:17px 0px;
+    border-radius: 8px;
+}
+ .image-txt p{
+   text-align: right;
+    padding-left:55px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:2em;
+    font-size:10px;
+ }
+
+ .image-txt > .bold{
+font-weight: bold;
+    font-style:bold;
+    padding-left:55px;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+   margin-top:8px;
+    line-height:1.5em;
+/* display: inline-block; */
+ }
+/* ---------Right-box----------- */
+
+.right-box{
+    display: inline-block;
+    width:55%;
+    height:60%;
+    /* background-color: blueviolet; */
+    font-family: Arial;
+    margin:0;
+    padding:0;
+    
+}
+.box1{
+    padding-top:2px;
+    width:50%;
+    height:30%;
+    display: inline-block;
+    margin-bottom:10px;
+
+}
+ .box1 > h6{
+    width:40%;
+    font-size: 1em;
+    margin-top:30px;
+    /* display: inline-block; */
+ }
+ .box1 > .account{
+    font-size: 0.2em;
+    padding:7px 0px ;
+    word-spacing:0.2em;
+    
+ }
+
+ .box1 > p{
+    font-size: 0.7em;
+    padding:7px 0px 0px 0px;
+    /* line-height: 1em;; */
+ }
+
+.box2 >.projects{
+   width:40%;
+    border:1px solid black;
+    display:inline-block;
+    margin:10px 20px 15px 0px;
+    padding-top:5px;
+    border-radius:5px ;
+    margin-top:5px;
+    outline:none;
+    border-color:aliceblue;
+    color: grey;
+    padding:3px 0px 2px;
+    text-align: center;
+}
+
+.box2 >.designs{
+    width:40%;
+    border:1px solid black;
+    display:inline-block;
+    margin:10px 20px 15px 0px;
+    padding-top:5px;
+    border-radius:5px ;
+    margin-top:5px;
+    outline:none;
+    border-color:aliceblue;
+    color: grey;
+    padding:1px 0px 2px;
+    text-align: center;
+}
+
+
+.box3{
+    /* padding:10px */
+    padding:0;
+    margin:0;
+}
+
+label .label{
+    display:block;
+    margin: 5px 0px;
+}
+
+.inp-1 input{
+    width: 268px; 
+    margin:3px 0px;
+    padding:3px;
+    border-radius:5px;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    outline:none;
+}
+ /* input :focus{
+    border-color: aliceblue;
+    background-color: aliceblue;
+    outline:none; */
+/* } */
+
+label .label{
+    display:block;
+    margin: 5px 0px;
+}
+
+.inp-2 input{
+
+    width: 268px; 
+    margin:3px 0px;
+    padding:3px;
+    border-radius:5px;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    outline:none;
+}
+
+.button{
+    width:150px;
+    height:30px;
+}
+
+
+label .label{
+    display:block;
+    margin: 5px 0px;
+}
+
+.inp-3 input{
+    width: 268px; 
+    padding:3px;
+    border-radius:5px;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    outline:none;
+}
+.button{
+    width:120px;
+    height:30px;
+    border-radius:5px ;
+    margin-top:5px;
+    outline:none;
+    border: none;
+    background-color: rgb(79, 79, 238);
+    color:aliceblue;
+}
+
